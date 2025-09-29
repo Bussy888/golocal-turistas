@@ -170,7 +170,7 @@ function App() {
         >
           ¿Por qué usar GoLocal?
         </Typography>
-        <Grid container spacing={4} sx={{ mt: 4 }}>
+        <Grid container spacing={2} sx={{ mt: 4 }}>
   {[
     {
       icon: <ExploreIcon sx={{ color: terracota, fontSize: 40 }} />,
@@ -197,7 +197,7 @@ function App() {
       image: "https://cdn.prod.website-files.com/60b550ccbb1a59f65dc28805/661e9559616f428a7fcab3af_como_eliminar_r4ese%C3%B1a_negativa.jpg",
     },
   ].map((benefit, i) => (
-    <Grid size={{ xs: 12, md: 6 }} key={i} item>
+  <Grid size={{ xs: 12, md: 6 }} key={i}>
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -247,7 +247,7 @@ function App() {
           >
             Experiencias destacadas
           </Typography>
-          <Grid container spacing={5} sx={{ mt: 4 }}>
+          <Grid container spacing={2} sx={{ mt: 4 }}>
             {[
               {
                 name: "Tour Salar de Uyuni",
@@ -271,7 +271,7 @@ function App() {
                 price: "Sumérgete en la energía andina con música, danzas y tradiciones llenas de color.",
               },
             ].map((exp, i) => (
-              <Grid size={{ xs: 12, md: 4 }}key={i} item>
+              <Grid size={{ xs: 12, md: 4 }} key={i} >
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
