@@ -96,7 +96,7 @@ function App() {
     </Box>
 
     <Button
-      href="https://docs.google.com/forms/d/e/1FAIpQLSeXAMPLE/viewform"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdEeq31nNnUaEhFjglrKlt5VGMOSmnoXJEoW-FtZUKeK97yvw/viewform?usp=header"
       target="_blank"
       onClick={handleClick}
       variant="contained"
@@ -139,7 +139,7 @@ function App() {
               Descubre experiencias auténticas, ajustadas a tus intereses y presupuesto.
             </Typography>
             <Button
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeXAMPLE/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdEeq31nNnUaEhFjglrKlt5VGMOSmnoXJEoW-FtZUKeK97yvw/viewform?usp=header"
               target="_blank"
               onClick={handleClick}
               size="large"
